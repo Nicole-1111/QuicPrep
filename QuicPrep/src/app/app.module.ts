@@ -3,12 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LandingComponent } from './landing/landing.component';
+import { LandingComponent } from './Components/landing/landing.component';
+import { PagenotfoundComponent } from './Components/pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingComponent
+    LandingComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,
