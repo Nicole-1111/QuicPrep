@@ -5,16 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingComponent } from './Components/landing/landing.component';
 import { PagenotfoundComponent } from './Components/pagenotfound/pagenotfound.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MaterialModule} from './Modules/material/material.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
